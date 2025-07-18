@@ -1,0 +1,50 @@
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### ▶️ Build e Dependências ###
+/target/          # Pasta de build do Maven
+/build/           # Pasta de build do Gradle
+/bin/             # Binários compilados
+*.jar             # Arquivos JAR gerados
+*.war             # Arquivos WAR (Java EE)
+*.ear             # Arquivos EAR (Java EE)
+dependency-reduced-pom.xml  # Arquivo gerado pelo Maven Shade Plugin
+HELP.md
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+/.mvn/wrapper/maven-wrapper.properties
+.vscode/
+
+### Environment Variables ###
+.env
